@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    flex-direction: column; 
+    height:100vh; /* declares height (viewpoint) of section */
+    align-items: center; /* aligns everything in the body to the centre */
+    justify-content: center; /* aligns everything in the body to the centre of the page */
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80") no-repeat center center fixed;
+    background-size: cover; /* fits image to page */
+}
+
+h2 {
+   color: #F67280; 
+   font-size: 75px;
+}
+
+.digitalclock {
+    display: flex;
+}
+
+.digitalclock div {
+    margin: 10px;
+}
+
+.digitalclock span {
+    color:aliceblue;
+    background-color: burlywood;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    opacity: 70%;
+    font-size: 30px;
+}
+
+.digitalclock .text {
+    height: 50px;
+    color: rgb(253, 155, 120);
+    background-color: #C06C84;
+}
+
+#hours {
+    border-radius:20px 0 0 0;
+}
+
+#digitalhour {
+    border-radius: 0 0 0 20px;
+}
+
+#seconds{
+    border-radius: 0 20px 0 0;
+}
+
+#digitalseconds {
+    border-radius: 0 0 20px 0;
+}
